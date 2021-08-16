@@ -1,0 +1,1 @@
+cmd_include/generated/vdso-offsets.h := 	/run/media/krr/8556a8f6-b02b-4b4c-a252-6bb02b183644/twrp/w/kernel/sony/icx1293/CROSS/aarch64-linux-android-4.9/bin/aarch64-linux-android-nm arch/arm64/kernel/vdso/vdso.so.dbg | ./arch/arm64/kernel/vdso/gen_vdso_offsets.sh | LC_ALL=C sort > include/generated/vdso-offsets.h
